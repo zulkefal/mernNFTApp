@@ -1,0 +1,60 @@
+.imageNFT{
+    box-shadow: rgba(250, 250, 250, 0.25) 0px 30px 60px -12px inset, rgba(248, 247, 247, 0.3) 0px 18px 36px -18px inset;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2%;
+    padding-right: 2%;
+}
+.fields{
+    margin-top: 2%;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.inputField{
+    width: 25%;
+    padding: 10px;
+    margin: 5px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+
+}
+
+.imageNFT img{
+    margin-top: 1%;
+    height: 40vh;
+    object-fit: contain;
+    overflow: hidden;
+}
+#img{
+    margin-top: 2%;
+    margin-left: 10%;
+}
+
+.fields button{
+    margin-top: 2%;
+    margin-bottom: 2%;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    background-color: #f1f1f1;
+    cursor: pointer;
+    margin-left: 40%;
+    width: 20%;
+}
+.ipfshash{
+    font-size: 1.2rem;
+    color: white;
+}
+.imageNFT input{
+color: white;
+}
+.loader{
+    margin: 0 5%;
+}

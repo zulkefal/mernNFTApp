@@ -1,0 +1,76 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.dash-header{
+    margin: 0.5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: azure;
+    font-size: 1.6rem;
+    box-shadow: rgba(250, 250, 250, 0.25) 0px 30px 60px -12px inset, rgba(248, 247, 247, 0.3) 0px 18px 36px -18px inset;
+}
+
+.mainDash{
+    height: 91vh;
+    width: 100%;
+}
+.dash2{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+}
+.sidebar{
+    color: #fff;
+    /* border: 2px solid #f2ecec; */
+    width: 20%;
+    height: 100%;
+    background: rgb(2,0,36);
+    box-shadow: rgba(0,212,255, 0.25) 0px 30px 60px -12px inset, rgba(0,212,255, 0.3) 0px 18px 36px -18px inset;
+
+    /* box-shadow: linear-gradient(90deg, rgba(0,212,255,1) 100%, rgba(0,212,255,1) 35%, rgba(0,212,255,1) 100%);    position: fixed; */
+    /* box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset; */
+}
+
+
+.content{
+    /* border: 2px solid #802e2e; */
+    width:80%;
+    color: wheat;
+
+}
+.dash2 ul{
+    list-style: none;
+    gap: 1rem;
+}
+
+.dash2 ul li{
+    font-size: 1.2rem;
+    line-height: 50px;
+    margin-left: 10%;
+}
+.dash2 ul li a{
+    list-style: none;
+    text-decoration: none;
+    color: white;
+
+}
+
+.dash2 ul li:hover{
+    padding: 2%;
+    background:#02375C;
+    border-radius: 4px;
+    margin-left: 3%;
+    color: black;
+    list-style: none;
+    text-decoration: none;
+
+}
+
+
+.a:hover{
+    color: black;
+}
